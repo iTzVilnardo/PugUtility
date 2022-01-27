@@ -1,0 +1,33 @@
+{
+  "name": "pugutility",
+  "version": "0.1.0",
+  "description": "bot multiusos para djpug",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "production": "node src/index.js"
+  },
+  "keywords": [
+    "js",
+    "discord-bot",
+    "v13",
+    "discordbot"
+  ],
+  "author": "1TzVIlnARdo#7611",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "discord.js-search": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "megadb": "^3.4.0",
+    "yt-channel-info": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.15"
+  }
+}
