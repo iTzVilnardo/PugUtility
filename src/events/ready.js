@@ -18,8 +18,8 @@ module.exports = {
 			yt.establecer(canales, uVideo.title)
 			
 
-			// if(title !== uVideo.title) return client.channels.cache.get('933765440847630396').send(`**${uVideo.author}** ha subido un nuevo video : **${uVideo.title}** 
-			// \n https://www.youtube.com/watch?v=${uVideo.videoId}`)
+			if(title !== uVideo.title) return client.channels.cache.get('906643999933235270').send(`**${uVideo.author}** ha subido un nuevo video : **${uVideo.title}** 
+			\n https://www.youtube.com/watch?v=${uVideo.videoId}`)
 
 			
 	}

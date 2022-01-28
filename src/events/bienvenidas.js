@@ -13,7 +13,7 @@ module.exports = {
 			.setTimestamp();
 
 
-        client.channels.cache.get('932335270106382348').send({embeds: [embed]});
+        client.channels.cache.get('906644279445819443').send({embeds: [embed]});
 
     }
 };

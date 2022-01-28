@@ -12,7 +12,7 @@ module.exports = {
         .setFooter(client.user.username, client.user.avatarURL())
         .setTimestamp();
       
-      let channel = client.channels.cache.get('932335270106382348');
+      let channel = client.channels.cache.get('906644329920069652');
       channel.send({embeds:[msgChannel]});
     }
 }
