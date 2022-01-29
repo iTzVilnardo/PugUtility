@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "bot multiusos para djpug",
   "main": "index.js",
+  "engines": {
+    "node": "16.13.1"
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
